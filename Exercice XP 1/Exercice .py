@@ -31,26 +31,41 @@ print("hello" =="hello")
 computer_brand= "lenovo"
 print("I have a " + computer_brand  + "computer")
 
-
 ##########
 #Exercice 5
 my_name="Adrie"
 my_old="30"
 my_shoe_size="jazz"
-info= "mon nom est", my_name + "j'ai", + my_old + "et ma music preferer est le " + my_shoe_size 
+info=f"my name is {my_name}.I have {my_old}.years old and my choes_size is{my_shoe_size}.".format(my_name,my_old,my_shoe_size)
+
 print(info)
 
-##### Exercice 6
-a= int(input("entrer un entier"))
-b= int(input("entrer un entier"))
-if (a> b) :
-   print("hello word") 
 
-###Exercie 7
-a= int(input("entrer un nombre a:"))
+ 
+### exercice6 ###
+a=input("entrer un premier nombre:")
+print(int(a))
+b=input("entrer le deuxième nombre:")
+print(int(b))
+if(a>b):
+    print("hello wold")
 
-if (a % 2) == 0:
-   print("le nombre est paire".format(a))
+### exercice7 ###
+a=int(input("entrer un nombre entier:"))
+if(a%2==0):
+    print("le nombre entrer est un nombre pair")
 else:
-   print("le nombre est impaire".format(a))
+    print("le nombre entrer est impair")
+
+    ## exercice8 ##
+a=str(input("entrer votre nom:"))
+list=[]
+list.append(a)
+print(list)
+    ### exercices 9 ###
+a=int(input("entrer votre taille:"))
+if(a>145):
+ print("vous etes géant")
+else:
+    print("vous avez besoin d'une croissance toujours")
  
