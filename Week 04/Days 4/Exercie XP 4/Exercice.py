@@ -186,4 +186,8 @@ while sandwich_orders != [] :
 
 # print the finished sandwich without pastramis
 for i in range(0, p):
+<<<<<<< HEAD
     print("I made your",finished_sandwiches[i])
+=======
+    print("I made your",finished_sandwiches[i])
+>>>>>>> origin/master
